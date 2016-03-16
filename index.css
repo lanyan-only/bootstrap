@@ -1,0 +1,201 @@
+ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+} 
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+   list-style:none ;
+}
+a{
+	color:#333;
+}
+img{
+	border:none;
+}
+.home-template{
+	background: rgb(242,242,242);
+	
+}
+html body{
+	height:100%;
+}
+.header{
+	padding:138px 0 0;
+	min-height: 400px;
+	text-align: center;
+	background-image: url(img/2de797545de56274f03a5920eb3a1.jpg);
+	background-size:100% 400px; 
+	position: relative;
+}
+.logoimg{
+	position: absolute;
+	left:1%;
+	right:1%;
+	bottom:-34px;
+}
+.logotxt{
+	margin:;
+}
+.logotxt h1 a{
+	font-size: 64px;
+	color:#fff;
+	font-weight: 700;
+}
+.logotxt h1 a:hover{
+	text-decoration: underline;
+}
+.hd-h2{
+	color:#fff;
+	font-size: 30px;
+	font-weight:bold;
+}
+/*顶部完*/
+.my-row[class^="col"]{
+	background: red;
+}
+.main{
+   margin-top:90px;
+}
+.my-thumbbox{
+	position: relative;
+	margin-bottom:30px;
+	padding-bottom:40px;
+	box-shadow: 0 1px 20px rgba(0,0,0,0.1);
+	background: #fff;
+    box-sizing:border-box;
+    border:none;
+}
+.my-thumbbox h2{
+	position: absolute;
+	left:0;right:0;
+	bottom:12px;
+	text-align: center;
+	z-index: 4;
+}
+.my-thumbbox h2 a{
+	color:#777;
+}
+.my-thumbbox h2 a:hover{
+	color:black;
+	text-decoration:underline;
+}
+.my-thumb a{
+	display: block;
+	padding:12px;
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+
+}
+.thumbnail{
+	border:none;
+}
+.pagebox{
+	position: relative;
+	margin:20px 0;
+	text-align: center;
+	font-size: 13px;
+}
+.pagebox .older-posts{
+	display: block;
+	position: absolute;
+	right:10px;
+	top:-10px;
+	padding:10px;
+	border:1px solid black;
+	border-radius:4px;
+}
+/*内容完*/
+
+.columnbox{
+	margin-top:20px;
+	padding-top:40px;
+	padding-bottom:40px;
+	text-align: center;
+	background: rgb(238,238,238);
+}
+.column p{
+	margin:0 0  10px;
+}
+.column p a{
+   color:#337ab7;
+}
+/*栏目结束*/
+
+.footerbox{
+	padding:35px 0 0;
+	background: rgb(32,32,32);
+	color:rgb(149,149,149);
+}
+.fo-h4{
+	padding-bottom:7px;
+	color:rgb(255,255,255);
+	border-bottom: 1px solid rgb(48,48,48);
+	position: relative;
+	margin-bottom: 21px;
+	margin-top:0;
+}
+.fo-left{
+	margin-bottom: 35px;
+	padding:0 30px;
+    line-height: 1.1em;
+}
+.fo-h4:after{
+	width:90px;
+	height:1px;
+	background: rgb(51, 122, 183);
+	position: absolute;
+	left:0;
+	bottom: -1px;
+	content: "";
+}
+.lian-xiala a{
+	display: block;
+	position: relative;	
+	color:rgb(149,149,149);
+	border-bottom:1px dashed rgb(48,48,48);
+	margin-bottom: 14px;
+	padding-bottom: 14px;
+}
+.lian-xiala a:hover{
+	color:#fff;
+	text-decoration:none;
+}
+.lian-xiala00 a{
+	display: inline-block;
+	margin:0 7px 7px 0;
+	border:1px solid rgb(48,48,48);
+	padding:2px 7px;
+	color:rgb(149,149,149);
+}
+.lian-xiala00 a:hover{
+	color:#fff;
+	text-decoration:none;
+	background:  rgb(51, 122, 183);
+}
+
+.copyrightbox{
+	padding-top:14px;
+	padding-bottom:20px;
+	border-top:1px solid rgb(48,48,48);
+	background: rgb(17,17,17);
+	color:rgb(85,85,85);
+	font-size: 13px;
+	text-align: center;
+}
+
+#youzhan{
+	color: rgb(85,85,85);
+	line-height: 1.4287em;
+   text-align: center;
+ 
+}
+.copyrightbox span{
+	letter-spacing:0.3px;
+}
+#youzhan:hover{
+	color:rgb(85,85,85);
+	text-decoration:underline;
+}
